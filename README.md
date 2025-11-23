@@ -54,8 +54,8 @@ You will be prompted:
 (c) Continue training from pretrained_model/stgat_mdn.pth
 (n) Train new ST-GAT model from scratch
 ```
-* Choose n to start over
-* Choose c to continue training from your saved checkpoint (there is a pretrained model available, you can use that as a starting point or delete)
+* Choose n to start over. If there is an existing model, this will override it.
+* Choose c to continue training from your saved checkpoint (there is a pretrained model available, you can use that as a starting point or choose n)
 
 **2. Train the LSTM Baseline**
 ```
