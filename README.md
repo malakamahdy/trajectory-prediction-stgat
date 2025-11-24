@@ -17,6 +17,7 @@ This project implements an LSTM-CNN-MDN model for multi-modal pedestrian traject
 
 ### Project Structure
 ```
+├── architecture_performance.pdf # Detailed report on the model architecture and performance
 ├── main.py                      # Train or continue training LSTM-CNN-MDN
 ├── train.py                     # LSTM-CNN-MDN training loop
 ├── train_lstm_baseline.py       # Train simple LSTM baseline
